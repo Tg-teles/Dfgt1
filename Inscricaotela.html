@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="Style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--Barra Inicial-->
+    <div class="barra">
+        <h2 id="principal"><a href="index.html">DFGT</a></h2>
+        <a href="index.html" class="links-barra"><img src="default_simbol.png" alt="default_simbol" height="20px" width="20px" style="margin: 1px;">
+        <a href="noticia.html" class="links-barra" >Notícias</a>
+    </div>
+
+    <!--Inscrição-->
+    
+    <div id="main-container" >  
+        <h1>Faça sua inscrição no Edital</h1>
+        <form action="" method="" id="">
+            <div class="full-box"> <!--Nome-->
+                <label for="nome">Nome</label>
+                <input type="text" name="nome" id="nome" placeholder="Digite seu Nome">
+            </div>
+            <div class="half-box spacing"> <!--Email-->
+                <label for="email">Email</label>
+                <input type="email" placeholder="Digite seu Email" id="Email" name="email">
+            </div>    
+            <div class="half-box spacing"> <!--Email-->
+                <label for="tel">Número</label>
+                <input type="email" placeholder="Digite seu Email" id="Email" name="email">
+            </div>  
+            <div class="half-box"> <!--Data de Nascimento-->
+                <label for="nascimento">Data de Nascimento</label>
+                <input type="date" name="nascimento" id="nascimento">
+            </div>    
+            <div class="half-box spacing"> <!--Matrícula-->
+                <label for="matricula">Matrícula</label>
+                <input type="text" name="matricula" id="matricula" placeholder="Digite sua Matrícula">
+            </div>    
+            <div class="full-box"> <!--Enviar-->
+                <input type="submit" value="Enviar" id="submit" >
+            </div>
+            <div class="full-box">
+                <label for="Atuacao">Escolha a Área de Atuação:</label>
+                <select name="Atuacao" id="Attu">
+                    <option value="0" selected id="select-1">Selecione</option>
+                    <option value="Eletronica">Eletrônica</option>
+                    <option value="Mecanica">Mecânica</option>
+                    <option value="Marketing">Marketing</option>
+                    <option value="Adminstracao">Adminstração</option>
+                    <option value="Programacao">Programação</option>
+                </select>
+            <div class="select-box">    
+              <label for="">sadasdasd</label><input type="checkbox" value="badba" name="Atua"> 
+               asdasd <input type="checkbox" value="badba" name="Atua">
+                asdasd<input type="radio" value="badba" name="Atua">
+            </div>
+            </div>
+        </form>
+    </div>
+    <p class="error-validation-template"></p>
+    <script>scr="man.js" </script>
+</body>
+</html>
